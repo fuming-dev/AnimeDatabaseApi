@@ -1,0 +1,49 @@
+.anime-card {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+
+  
+}
+
+
+.anime-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.anime-card a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.anime-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .anime-card{
+    width: 300px;
+  }
+
+
+
+.anime-card img {
+  width: 300px;
+  border-radius: 5px;
+}
+  
+
+
+}
