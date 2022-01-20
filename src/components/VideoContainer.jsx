@@ -26,7 +26,6 @@ const VideoContainer = ({
               anime={anime}
               key={anime.id}
               
-            
             />
           </div>
 

@@ -2,7 +2,7 @@
 .test {
     color: black;
     background-color: white;
-    width: 100%;
+    max-width: 100%;
     margin-top: 1rem;
 }
 
@@ -18,9 +18,7 @@
   line-height: 1.5;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   width: 300px;
-  
-
-  
+    
 }
 
 .test-info button {
@@ -36,8 +34,6 @@
 
 }
 
-
-
 .description {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -46,11 +42,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: burlywood;
   margin-bottom: 0.5rem;
 }
 
 .description button {
+  
   padding: 0.3rem;
   border: 1px solid grey;
   border-radius: 5px;
@@ -64,67 +60,20 @@
   font-size: 15px;
 }
 
-/*
-
-
-@media only screen and (max-width: 1061px) {
-
-
-    .test{
-        color: black;
-        background-color: white;
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        margin-top: 1rem;
-    
-    
-    }
-    
-}
-
-*/
-
-/*
-
-@media only screen and (max-width: 600px) {
-    .test{
-        color: black;
-        background-color: white;
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto auto auto  ;
-        align-items: center;
-        margin-top: 1rem;
-    
-    
-    }
-    
-
-
+@media only screen and (max-width: 25rem) {
+  .test{
+      color: black;
+      background-color: white;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center; 
+      margin-top: 1rem;
+  
+  
   }
 
-
-
-
-
-@media only screen and (max-width: 768px) {
-
-
-    .test{
-        color: black;
-        background-color: white;
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        margin-top: 1rem;
-    
-    
-    }
-    
+  
 }
 
-*/
 

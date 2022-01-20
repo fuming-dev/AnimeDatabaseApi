@@ -30,6 +30,11 @@ h3 {
   gap: 0.4rem
 }
 
+.schedule-content{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
 
 @media screen and (max-width: 550px) {
   .test {
@@ -62,6 +67,7 @@ h3 {
     align-items: center;
   }
 }
+
 
 
 
